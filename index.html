@@ -1,6 +1,53 @@
-
 <html>
-  <body>
-    <h1>Hi</h1>
-    <body>
+
+<body>
+<h1>ASK ME</h1>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+        <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+<script>
+            window.onload = function(){
+                if (annyang) {
+                    var commands = {
+                        'Hello': function() {
+                            //document.getElementById("disp").innerHTML="Hello! dear";
+                            responsiveVoice.speak("Hello");
+                        },
+                        'I am k ri shn a': function() {
+                            //document.getElementById("disp1").innerHTML="I am good";
+                            responsiveVoice.speak("I am good");
+                        },
+                        'I am krishna': function() {
+                           // document.getElementById("disp2").innerHTML="Hi! Mark, how u doin";
+                            responsiveVoice.speak("Hi sai krishna chinnu, how u doing");
+                        },
+						  'I am pramod': function() {
+                           // document.getElementById("disp2").innerHTML="Hi! Mark, how u doin";
+                            responsiveVoice.speak("Hi i v y pramod, how u doing");
+                        },
+                        'Can you please take me to register page': function() {
+                            window.location.replace("register1.php");
+                            responsiveVoice.speak("Yes Ofcourse");
+                        },
+                        'How are you': function() {
+                          //  document.getElementById("disp4").innerHTML="I am good";
+                            responsiveVoice.speak("I am good");
+                        },
+						   'Can you please take me to login page': function() {
+                     window.location.replace("login1.php");
+                            responsiveVoice.speak("Yes Ofcourse");
+                        },
+                        'Who created You' : function(){
+                          //  document.getElementById("disp5").innerHTML="Subodh Kumar";
+                            responsiveVoice.speak("Sai krishna");
+                        }
+                    };
+                    annyang.addCommands(commands);
+                    annyang.start(); 
+                }
+            }
+        </script>
+
+
+
 </html>
