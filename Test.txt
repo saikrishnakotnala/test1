@@ -1,0 +1,330 @@
+Slide 2: The Invisible Workforce – AI Agents in Backend Ops
+Importance of the Session:
+
+Showcased how autonomous AI agents are already automating cloud infrastructure, deployment pipelines, cybersecurity tasks, and data flows — quietly and reliably.
+
+Moved the conversation away from chatbots and toward deep, functional automation.
+
+Strategic Takeaway for ABCD:
+
+AI agents can offload repetitive and error-prone infrastructure tasks, reduce ops load, and increase consistency in backend workflows.
+
+Brings us closer to true self-healing systems in ops and infra.
+
+What We Can Implement:
+
+Pilot autonomous agents for:
+
+Automated patching and remediation in AWS/Azure environments.
+
+Cloud config compliance checks.
+
+Event-driven data archival or backup agents.
+
+Use existing AI stacks (e.g., ServiceNow Virtual Agent, internal orchestration tools) for integration.
+
+🔔 Slide 3: AI Assistance for On-Call Engineers
+Importance of the Session:
+
+AI helped reduce alert noise by 90%, retrieved resources in 6 seconds, and created Post-Incident Reports (PIRs) 7x faster.
+
+Streamlined and humanized the incident response pipeline.
+
+Strategic Takeaway for ABCD:
+
+We can significantly reduce cognitive load on SREs and Ops engineers, enabling faster response and higher system uptime.
+
+Ideal for improving our production support metrics and MTTR (Mean Time to Resolution).
+
+What We Can Implement:
+
+Integrate AI summarization tools with Jira, Splunk, Grafana to auto-summarize incidents.
+
+Use NLP agents to generate PIRs from logs, runbooks, and Slack threads.
+
+Deploy fine-tuned models trained on our internal on-call SOPs.
+
+⚡ Slide 4: Low-Code + AI: Building Internal Tools Faster
+Importance of the Session:
+
+Highlighted how AI-infused low-code tools (like Zoho’s Zia) enable rapid app prototyping, blueprinting, and workflow creation.
+
+Reduced dependency on engineering for internal applications.
+
+Strategic Takeaway for ABCD:
+
+AI + low-code can empower non-technical teams (Ops, Compliance, HR) to create useful internal tools.
+
+Accelerates workflow digitization and reduces backlog on engineering teams.
+
+What We Can Implement:
+
+Use Microsoft Power Apps + Copilot to enable business teams to:
+
+Build form-based approval workflows.
+
+Automate internal reporting dashboards.
+
+Create quick MVPs for internal tools (e.g., scheduling, ticketing, inventory).
+
+Governance framework to manage access, data boundaries, and audit logs.
+
+🧠 Slide 5: Supercharging Agentic AI Apps
+Importance of the Session:
+
+Introduced a cloud-native scaffolding approach to building LLM-powered agents — with reusable templates, built-in DevOps, and scalable infra.
+
+Focused on developer experience and operational ease.
+
+Strategic Takeaway for ABCD:
+
+A standardized agentic scaffolding framework could reduce the cost and time to deploy intelligent AI agents across use cases — customer support, finance ops, HR, compliance.
+
+What We Can Implement:
+
+Build an internal LLM Agent Platform with:
+
+Pre-built templates for common functions (query routing, summarization, ticketing).
+
+Integration with Azure OpenAI, Kafka, Snowflake.
+
+Pre-configured observability and rollback.
+
+Roll out for specific use cases like fraud insight extraction, internal search agents, etc.
+
+👥 Slide 6: AI for Teams – Beyond Coding
+Importance of the Session:
+
+Explored how AI can assist in requirements analysis, architecture planning, documentation, and collaborative work—not just code generation.
+
+Focused on amplifying team productivity, not replacing roles.
+
+Strategic Takeaway for ABCD:
+
+Teams spend hours in documentation, analysis, and coordination — AI can cut this time and create consistency.
+
+Boosts agility, especially in cross-functional squads.
+
+What We Can Implement:
+
+AI agents to:
+
+Generate architecture diagrams from confluence pages.
+
+Draft Jira tickets from meeting transcripts.
+
+Convert meeting notes into action items with deadlines.
+
+Embed Copilot across tools like Microsoft Teams, Miro, and Jira.
+
+📊 Slide 7: LLMs + Data Platforms for Natural Language Analytics
+Importance of the Session:
+
+Demonstrated serverless, secure integrations of LLMs with data lakes and warehouses using Streamlit and native LLM APIs.
+
+Enabled business users to ask natural language questions about data.
+
+Strategic Takeaway for ABCD:
+
+Enables data democratization — PMs, auditors, and analysts can interact with datasets without needing SQL or dashboards.
+
+What We Can Implement:
+
+Enable natural language querying of internal datasets via:
+
+Streamlit or internal dashboard tools.
+
+Azure OpenAI models fine-tuned on structured financial data.
+
+Strong focus on RBAC, data masking, and audit trails.
+
+🏁 Slide 8: Final Recommendations
+Short-Term (0–3 Months):
+
+Identify 2-3 teams for agent-based POCs.
+
+Integrate AI-generated PIRs and alert summarization for one SRE squad.
+
+Mid-Term (3–6 Months):
+
+Establish a standard AI agent scaffolding framework.
+
+Pilot low-code + AI toolkits with Ops and Compliance teams.
+
+Long-Term (6–12 Months):
+
+Create an internal AI Marketplace for reusable tools and models.
+
+Roll out conversational analytics for 2 business units.
+
+
+
+3 Big AI Themes from GIDS 2025
+
+Theme	What’s Happening	Why It Matters
+🤖 Backend AI Agents	Automating infra, deployments, cloud ops	Reduces manual ops, improves reliability
+🚨 AI for Incident Management	Alert triage, PIRs, faster recovery	Frees up engineers, faster MTTR
+👥 AI Beyond Coding	Assisting docs, design, low-code apps	Empowers full teams, not just devs
+
+Slide 3: Theme Deep Dive: Backend AI Agents
+Slide Title:
+Invisible Workforce: AI Agents Behind the Scenes
+
+What They Showed:
+AI automating software deployments, cloud infra, and backend tasks.
+
+Why It Matters:
+Silent productivity gain — less manual work, fewer human errors.
+
+ABCD Use Case:
+
+AI agents in Jenkins pipelines
+
+Drift detection in cloud infra
+
+Security log triage with LLMs
+
+✅ Slide 4: AI for Teams & On-Call Support
+Slide Title:
+From On-Call to Collaboration: AI in Daily DevOps
+
+What They Showed:
+
+90% noise reduction in alerts
+
+7x faster Post-Incident Reports
+
+AI generating architecture docs, Confluence pages
+
+Why It Matters:
+Direct productivity boost, especially for support teams.
+
+ABCD Use Case:
+
+Use LLMs for Jira incident summaries
+
+Auto PIR generation
+
+AI co-pilot for dev+PM teams in Confluence
+
+✅ Slide 5: What Can We Do Next?
+Slide Title:
+Next Steps: How We Could Start at ABCD
+
+Identify 1-2 low-risk areas for AI agent automation
+
+Partner with SRE/DevOps for alert triage AI prototype
+
+Leverage LLMs for auto-doc and knowledge sharing (internal tools/Confluence)
+
+Encourage team-level AI pilots, not just coding co-pilots
+
+
+Slide 1: GIDS 2024 – AI Takeaways for ABCD (7-min Presentation)
+
+Slide 2: Theme 1 – AI Agents & Invisible Automation
+
+Session: The Invisible Workforce: AI Agents Behind the ScenesSpeaker: Rama Akkiraju, NVIDIA FellowCompany: NVIDIA
+
+Key Learnings:
+
+AI agents are automating backend workflows: cloud infra, cybersecurity, and data pipelines.
+
+They are invisible yet mission-critical – silently improving efficiency and reducing human error.
+
+Relevance to ABCD:
+
+Apply AI agents to support regulatory compliance workflows, internal security scans, infra health checks.
+
+Could enhance DevOps, infrastructure management, and internal developer platforms.
+
+Slide 3: Theme 1 – AI Agents & Invisible Automation (continued)
+
+Session: Supercharge Agentic AI AppsSpeaker: Sathya Raghavendran, Principal Architect at ThoughtworksCompany: Thoughtworks
+
+Key Learnings:
+
+Introduced DevEx-focused scaffolding to speed up agentic app development.
+
+Ready-to-deploy templates, cloud-native integration, plug-and-play with LangChain, HuggingFace.
+
+Relevance to ABCD:
+
+Use internal code scaffolding for rapid AI agent development.
+
+Helps prototype intelligent systems like risk monitoring agents or financial compliance bots faster.
+
+Slide 4: Theme 2 – AI for Developer Productivity & Teams
+
+Session: AI for Teams: AI Assistance Beyond CodingSpeaker: Dan Shappir, Dev Advocate at WixCompany: Wix
+
+Key Learnings:
+
+AI supports requirement analysis, design discussions, and documentation.
+
+Promotes knowledge sharing and reduces team silos.
+
+Relevance to ABCD:
+
+Integrate non-coding AI assistance in dev workflows—especially for architecture design & retrospectives.
+
+Use tools like GitHub Copilot or Confluence GPT integrations across squads.
+
+Session: AI Coding Agents and How to Code ThemSpeaker: Harini Suresh, Researcher at Google DeepMindCompany: Google DeepMind
+
+Key Learnings:
+
+Multi-agent orchestration for auto-fixing code and auto-generating test suites.
+
+Prompt chaining and memory management crucial.
+
+Relevance to ABCD:
+
+Use agents in IDEs for instant bug triaging or log analysis.
+
+Build secure in-house copilots fine-tuned on legacy ABCD codebases.
+
+Slide 5: Theme 3 – Democratizing AI with Data & Low-Code
+
+Session: Build AI-Powered Apps Using Low-CodeSpeaker: Raju Vegesna, Chief Evangelist at ZohoCompany: Zoho
+
+Key Learnings:
+
+Use AI to convert text/flowcharts into working apps via platforms like Zoho Creator.
+
+AI generates logic, blueprints, UI – even data models.
+
+Relevance to ABCD:
+
+Use AI + low-code to enable BAs to build internal dashboards/tools.
+
+Faster POC cycles, less reliance on full-stack developers.
+
+Session: Serverless LLMs for Natural Language AnalyticsSpeaker: Abhishek Bhattacharya, Co-Founder at WhizAICompany: WhizAI
+
+Key Learnings:
+
+Streamlit + OpenLLMs for NL-to-SQL + charting.
+
+Democratizes access to BI and analytics.
+
+Relevance to ABCD:
+
+Can help ops teams, PMs query data without SQL.
+
+Secure internal LLMs for faster insight generation.
+
+Slide 6: Final Reflections – GIDS to ABCD
+
+Top Strategic Actions:
+
+Encourage internal adoption of invisible AI agents.
+
+Leverage AI beyond dev tasks—think team dynamics.
+
+Democratize access to AI with low-code and NL interfaces.
+
+Closing Thought:
+AI isn’t just accelerating delivery—it’s reshaping how we work, decide, and scale. GIDS 2024 showed us the tools—now let’s shape the future with them at ABCD.
+
+
